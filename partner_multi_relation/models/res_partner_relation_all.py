@@ -7,9 +7,9 @@ import logging
 
 from psycopg2.extensions import AsIs
 
-from openerp import _, api, fields, models
-from openerp.exceptions import ValidationError
-from openerp.tools import drop_view_if_exists
+from odoo import _, api, fields, models
+from odoo.exceptions import ValidationError
+from odoo.tools import drop_view_if_exists
 
 
 _logger = logging.getLogger(__name__)
@@ -133,7 +133,7 @@ class ResPartnerRelationAll(models.AbstractModel):
         register = self.get_register()
         union_select = ' UNION '.join(
             [register[key]['select_sql']
-             for key in register.iterkeys() if key != '_lastkey'])
+             for key in register.keys() if key != '_lastkey'])
         return """\
 CREATE OR REPLACE VIEW %%(table)s AS
      WITH base_selection AS (%(union_select)s)
@@ -401,7 +401,7 @@ CREATE OR REPLACE VIEW %%(table)s AS
             rec.write_resource(base_resource, vals)
         # Invalidate cache to make res.partner.relation.all reflect changes
         # in underlying res.partner.relation:
-        self.env.invalidate_all()
+        self.env.cache.invalidate()
         return True
 
     @api.model

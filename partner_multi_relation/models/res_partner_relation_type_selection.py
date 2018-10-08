@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Copyright 2013-2017 Therp BV <http://therp.nl>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 """
@@ -15,8 +14,8 @@ the field labels translatable.
 """
 from psycopg2.extensions import AsIs
 
-from openerp import api, fields, models
-from openerp.tools import drop_view_if_exists
+from odoo import api, fields, models
+from odoo.tools import drop_view_if_exists
 
 
 class ResPartnerRelationTypeSelection(models.Model):

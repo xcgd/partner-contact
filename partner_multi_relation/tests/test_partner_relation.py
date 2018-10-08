@@ -1,12 +1,11 @@
-# -*- coding: utf-8 -*-
 # Copyright 2016-2017 Therp BV
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 from datetime import date
 from dateutil.relativedelta import relativedelta
 from psycopg2 import IntegrityError
 
-from openerp import fields
-from openerp.exceptions import ValidationError
+from odoo import fields
+from odoo.exceptions import ValidationError
 
 from .test_partner_relation_common import TestPartnerRelationCommon
 

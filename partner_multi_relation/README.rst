@@ -72,6 +72,7 @@ Contributors
 * Sandy Carter <sandy.carter@savoirfairelinux.com>
 * Bruno Joliveau <bruno.joliveau@savoirfairelinux.com>
 * Adriana Ierfino <adriana.ierfino@savoirfairelinux.com>
+* Balde Oury <oury.balde@xcg-consulting.fr>
 
 Maintainer
 ----------

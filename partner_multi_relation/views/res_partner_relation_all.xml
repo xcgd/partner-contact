@@ -6,7 +6,8 @@
             <field name="arch" type="xml">
                 <tree
                     string="Partner Relations"
-                    colors="gray:not active; blue:date_start &gt; current_date"
+                    decoration-primary="date_start &gt; current_date"
+                    decoration-muted="not active"
                     editable="top"
                     >
                     <field
