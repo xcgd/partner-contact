@@ -9,6 +9,12 @@ class ResPartner(models.Model):
     group_id = fields.Many2one(
         comodel_name='res.partner',
         string='Group',
+        domain=[("is_group", "=", True)],
+    )
+
+    is_group = fields.Boolean(
+        string="Is a Group",
+        default=False,
     )
 
     @api.model

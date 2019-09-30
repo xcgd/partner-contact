@@ -9,7 +9,8 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
             <field name="lang" position="after">
-                <field name="group_id"/>
+            	<field name="is_group"/>
+                <field name="group_id" attrs="{'invisible': [('parent_id', '!=', False)]}"/>
             </field>
         </field>
     </record>
@@ -22,6 +23,7 @@
                 <filter name="group_group" string="Group" context="{'group_by': 'group_id'}"/>
             </filter>
             <field name="parent_id" position="after">
+            	<field name="is_group"/>
                 <field name="group_id"/>
             </field>
         </field>
