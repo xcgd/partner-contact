@@ -10,26 +10,38 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-26 15:32+0000\n"
-"PO-Revision-Date: 2017-12-26 15:32+0000\n"
+"POT-Creation-Date: 2021-01-29 10:58+0000\n"
+"PO-Revision-Date: 2021-01-29 11:58+0100\n"
 "Last-Translator: Quentin THEURET <odoo@kerpeo.com>, 2017\n"
 "Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#. module: partner_contact_job_position
+#: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner_job_position__active
+#: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_search_view
+msgid "Active"
+msgstr "Actif"
 
 #. module: partner_contact_job_position
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner__job_position_id
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_users__job_position_id
 msgid "Categorized job position"
-msgstr ""
+msgstr "Fonction"
+
+#. module: partner_contact_job_position
+#: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner_job_position__code
+msgid "Code"
+msgstr "Code"
 
 #. module: partner_contact_job_position
 #: model:ir.model,name:partner_contact_job_position.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #. module: partner_contact_job_position
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner_job_position__create_uid
@@ -52,22 +64,38 @@ msgid "ID"
 msgstr "ID"
 
 #. module: partner_contact_job_position
+#: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_search_view
+msgid "Inactive"
+msgstr "Inactif"
+
+#. module: partner_contact_job_position
+#: code:addons/partner_contact_job_position/models/res_partner.py:0
+#, python-format
+msgid "Job Position"
+msgstr "Fonction"
+
+#. module: partner_contact_job_position
 #: model:ir.actions.act_window,name:partner_contact_job_position.res_partner_job_position_action
 #: model:ir.ui.menu,name:partner_contact_job_position.menu_res_partner_job_position
 msgid "Job Positions"
-msgstr ""
+msgstr "Fonctions"
 
 #. module: partner_contact_job_position
 #: model:ir.model,name:partner_contact_job_position.model_res_partner_job_position
 #: model_terms:ir.ui.view,arch_db:partner_contact_job_position.view_res_partner_filter_job_position
 msgid "Job position"
-msgstr ""
+msgstr "Fonction"
+
+#. module: partner_contact_job_position
+#: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_search_view
+msgid "Job position search"
+msgstr "Recherche de fonctions"
 
 #. module: partner_contact_job_position
 #: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_form_view
 #: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_tree_view
 msgid "Job positions"
-msgstr ""
+msgstr "Fonctions"
 
 #. module: partner_contact_job_position
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner_job_position____last_update
@@ -85,9 +113,40 @@ msgid "Last Updated on"
 msgstr "Mis à jour le"
 
 #. module: partner_contact_job_position
+#: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_search_view
+msgid "Show active job positions"
+msgstr "Afficher les fonctions actives"
+
+#. module: partner_contact_job_position
+#: model_terms:ir.ui.view,arch_db:partner_contact_job_position.res_partner_job_position_search_view
+msgid "Show inactive job positions"
+msgstr "Afficher les fonctions inactives"
+
+#. module: partner_contact_job_position
+#: model:ir.model.constraint,message:partner_contact_job_position.constraint_res_partner_job_position_unique_code
+msgid "The code must be unique."
+msgstr "Le code doit être unique."
+
+#. module: partner_contact_job_position
+#: code:addons/partner_contact_job_position/models/res_partner.py:0
+#: model:ir.model.fields,help:partner_contact_job_position.field_res_partner__job_position_id
+#: model:ir.model.fields,help:partner_contact_job_position.field_res_users__job_position_id
+#, python-format
+msgid "Type of job position occupied by the contact in the company."
+msgstr "Type de poste occupé dans la société par le contact."
+
+#. module: partner_contact_job_position
+#: model:ir.model.fields,help:partner_contact_job_position.field_res_partner_job_position__code
+msgid "Unique code."
+msgstr "Code unique."
+
+#. module: partner_contact_job_position
 #: model:ir.model.fields,field_description:partner_contact_job_position.field_res_partner_job_position__name
-msgid "Name"
-msgstr "Nom"
+msgid "Wording"
+msgstr "Libellé"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
 
 #~ msgid "Children"
 #~ msgstr "Enfant"
