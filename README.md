@@ -21,14 +21,14 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [base_country_state_translatable](base_country_state_translatable/) | 13.0.1.0.0 |  | Translate Country States
-[base_location](base_location/) | 13.0.1.1.1 |  | Enhanced zip/npa management system
+[base_location](base_location/) | 13.0.1.1.2 |  | Enhanced zip/npa management system
 [base_location_geonames_import](base_location_geonames_import/) | 13.0.2.0.0 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 13.0.1.0.0 |  | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 13.0.1.0.1 |  | Sets customer's code from a sequence
 [base_vat_sanitized](base_vat_sanitized/) | 13.0.1.0.0 |  | Adds field sanitized_vat on partners
 [partner_address_street3](partner_address_street3/) | 13.0.1.0.0 |  | Add a third address line on partners
 [partner_address_two_lines](partner_address_two_lines/) | 13.0.1.0.1 |  | The company and the partner name are on two different lines
-[partner_affiliate](partner_affiliate/) | 13.0.1.0.1 |  | Partner Affiliates
+[partner_affiliate](partner_affiliate/) | 13.0.1.1.0 |  | Partner Affiliates
 [partner_bank_active](partner_bank_active/) | 13.0.1.0.0 |  | This module allows to deactivate a partner bank account.
 [partner_bank_sort_code](partner_bank_sort_code/) | 13.0.1.0.1 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Adds a field in banks to manage Sort Codes
 [partner_capital](partner_capital/) | 13.0.1.0.1 |  | Partners Capital
@@ -49,7 +49,7 @@ addon | version | maintainers | summary
 [partner_data_vies_populator](partner_data_vies_populator/) | 13.0.1.0.0 |  | Using VIES webservice, name and address information will be fetched and added to the partner.
 [partner_deduplicate_acl](partner_deduplicate_acl/) | 13.0.1.0.0 |  | Contact deduplication with fine-grained permission control
 [partner_deduplicate_by_ref](partner_deduplicate_by_ref/) | 13.0.1.0.0 |  | Deduplicate Contacts by reference
-[partner_deduplicate_by_website](partner_deduplicate_by_website/) | 13.0.1.0.0 |  | Deduplicate Contacts by Website
+[partner_deduplicate_by_website](partner_deduplicate_by_website/) | 13.0.1.0.1 |  | Deduplicate Contacts by Website
 [partner_deduplicate_filter](partner_deduplicate_filter/) | 13.0.1.0.0 |  | Exclude records from the deduplication
 [partner_disable_gravatar](partner_disable_gravatar/) | 13.0.1.0.0 |  | Disable automatic connection to gravatar.com
 [partner_email_check](partner_email_check/) | 13.0.1.1.0 |  | Validate email address field
