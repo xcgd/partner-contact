@@ -21,8 +21,8 @@ Available addons
 addon | version | maintainers | summary
 --- | --- | --- | ---
 [base_country_state_translatable](base_country_state_translatable/) | 13.0.1.0.0 |  | Translate Country States
-[base_location](base_location/) | 13.0.1.1.2 |  | Enhanced zip/npa management system
-[base_location_geonames_import](base_location_geonames_import/) | 13.0.2.0.0 |  | Import zip entries from Geonames
+[base_location](base_location/) | 13.0.1.1.3 |  | Enhanced zip/npa management system
+[base_location_geonames_import](base_location_geonames_import/) | 13.0.2.0.1 |  | Import zip entries from Geonames
 [base_location_nuts](base_location_nuts/) | 13.0.1.0.0 |  | NUTS Regions
 [base_partner_sequence](base_partner_sequence/) | 13.0.1.0.1 |  | Sets customer's code from a sequence
 [base_vat_sanitized](base_vat_sanitized/) | 13.0.1.0.0 |  | Adds field sanitized_vat on partners
@@ -33,10 +33,10 @@ addon | version | maintainers | summary
 [partner_bank_sort_code](partner_bank_sort_code/) | 13.0.1.0.1 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Adds a field in banks to manage Sort Codes
 [partner_capital](partner_capital/) | 13.0.1.0.1 |  | Partners Capital
 [partner_coc](partner_coc/) | 13.0.1.0.0 |  | Adds field 'Chamber Of Commerce Registration Number'
-[partner_company_group](partner_company_group/) | 13.0.1.2.0 |  | Adds the possibility to add a company group to a company
+[partner_company_group](partner_company_group/) | 13.0.1.2.1 |  | Adds the possibility to add a company group to a company
 [partner_company_type](partner_company_type/) | 13.0.1.0.0 |  | Adds a company type to partner that are companies
 [partner_contact_access_link](partner_contact_access_link/) | 13.0.1.0.0 | [![Yajo](https://github.com/Yajo.png?size=30px)](https://github.com/Yajo) | Allow to visit the full contact form from a company
-[partner_contact_address_default](partner_contact_address_default/) | 13.0.1.0.1 |  | Set a default delivery and invoice address for contacts
+[partner_contact_address_default](partner_contact_address_default/) | 13.0.1.1.0 |  | Set a default delivery and invoice address for contacts
 [partner_contact_age_range](partner_contact_age_range/) | 13.0.1.0.0 |  | Age Range for Contact's
 [partner_contact_birthdate](partner_contact_birthdate/) | 13.0.2.0.0 |  | Contact's birthdate
 [partner_contact_department](partner_contact_department/) | 13.0.1.0.0 |  | Assign contacts to departments
